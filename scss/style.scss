@@ -1,0 +1,31 @@
+
+// Toggle global options
+$enable-gradients: true;
+$enable-shadows: true;
+
+// Customize some defaults
+$body-color: rgb(0, 36, 46);
+$body-bg: rgb(15, 98, 170);
+$comment-bg: rgb(240, 242, 245);
+
+$container-color: rgb(102, 102, 102);
+$container-bg: rgb(255,255,255);
+
+
+//
+// Custom styles
+//
+
+body {
+  padding: 0rem;
+  margin: 0rem;
+  background-color: $body-bg;
+}
+
+.container {
+  background-color: $container-bg;
+}
+
+input {
+  background-color: $comment-bg;
+}

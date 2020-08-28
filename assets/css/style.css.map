@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../../scss/style.scss"
+	],
+	"sourcesContent": [
+		"\n// Toggle global options\n$enable-gradients: true;\n$enable-shadows: true;\n\n// Customize some defaults\n$body-color: rgb(0, 36, 46);\n$body-bg: rgb(15, 98, 170);\n$comment-bg: rgb(240, 242, 245);\n\n$container-color: rgb(102, 102, 102);\n$container-bg: rgb(255,255,255);\n\n\n//\n// Custom styles\n//\n\nbody {\n  padding: 0rem;\n  margin: 0rem;\n  background-color: $body-bg;\n}\n\n.container {\n  background-color: $container-bg;\n}\n\ninput {\n  background-color: $comment-bg;\n}\n"
+	],
+	"names": [],
+	"mappings": "AAkBA,AAAA,IAAI,AAAC,CACH,OAAO,CAAE,IAAI,CACb,MAAM,CAAE,IAAI,CACZ,gBAAgB,CAdR,OAAgB,CAezB,AAED,AAAA,UAAU,AAAC,CACT,gBAAgB,CAdH,IAAgB,CAe9B,AAED,AAAA,KAAK,AAAC,CACJ,gBAAgB,CArBL,OAAkB,CAsB9B"
+}
