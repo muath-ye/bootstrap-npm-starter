@@ -2,18 +2,22 @@
 @import "starter-rtl";
 // styles for new classes
 
-.navbar
-{
-  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
-}
-
 .navbar-brand-img
 {
-  height: 64px;
+  height: 2rem;
   filter: brightness(0.3);
 }
 
-body
+#container-row-right-sticky,
+.container-row-right-sticky,
+.container-row-left-sticky
 {
-  background: #f9f9f9 url("/assets/images/pattern.png") repeat-x 0 90px;
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: sticky;
 }
+

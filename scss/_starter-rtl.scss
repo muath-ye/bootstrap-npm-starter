@@ -15,17 +15,34 @@ $container-bg: rgb(255,255,255);
   direction: rtl;
 }
 
+html {
+  background-color: $body-bg;
+}
 
 body {
   padding: 0rem;
   margin: 0rem;
+  background: $body-bg url("/assets/images/pattern.png") repeat-x 0 (8+44)px;
+  background-color: $body-bg !important;
 }
 
-nav,
-.container {
+.container, .row {
+  background: $body-bg;
+  background-color: $body-bg !important;
+}
+
+nav {
   background-color: $container-bg;
+}
+
+nav.navbar {
+  direction: rtl;
 }
 
 input {
   background-color: $comment-bg;
+}
+
+.bg-light {
+  background-color: #fff !important;
 }
