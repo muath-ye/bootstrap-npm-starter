@@ -52,9 +52,21 @@ $(function() {
       cursoropacitymin: 0.5,
       scrollbarid: "#container-row-right-sticky",
       autohidemode: "false",
+      railpadding: { top: 0, right: 0, left: 0, bottom: 0 },
     }
   );
 });
 /**
  * ./Nice Scroll
  */
+
+ /**
+  * Preloader
+  */
+ //For Live Projects
+  window.addEventListener('load',function(){
+    document.querySelector('body').classList.add("loaded");
+  });
+ /**
+  * ./Preloader
+  */

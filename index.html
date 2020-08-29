@@ -9,8 +9,15 @@
     <title>Bootstrap npm starter</title>
   </head>
   <body>
+    <!-- Add loader-wrapper just below the body tag -->
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+    <!-- ./Add loader-wrapper just below the body tag -->
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light shadow-sm ">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light shadow-sm navbar-minimal-a">
       <a class="navbar-brand" href="#">
         <img class="navbar-brand-img" src="assets/images/Emrany-05.png"/>
       </a>
@@ -30,21 +37,21 @@
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
+        <form class="form-inline my-3 my-lg-0">
           <input class=" rounded-pill form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
           <div class="mx-2"></div>
-          <button class="btn btn-outline-success my-2 my-sm-0 rounded-pill" type="submit">Search</button>
+          <button class="btn btn-outline-success my-3 my-sm-0 rounded-pill" type="submit">Search</button>
         </form>
       </div>
     </nav>
     <!-- ./Navbar -->
 
     <!-- Test -->
-    <div class="container">
+    <div class="container mt-4">
       <div class="row d-flex justify-content-around">
         <div class="w-25 container-row-right-sticky nicescroll-box">
           <div class="nicescroll-box-wrap">
-            <div class="card bg-light p-3 h-auto w-100 my-4">
+            <div class="card bg-light p-3 h-auto w-100 mb-3">
               <img src="assets/images/avatar.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -52,7 +59,7 @@
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
-            <div class="card bg-light p-3 h-auto w-100 my-4">
+            <div class="card bg-light p-3 h-auto w-100 my-3">
               <img src="assets/images/avatar.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -60,7 +67,7 @@
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
-            <div class="card bg-light p-3 h-auto w-100 my-4">
+            <div class="card bg-light p-3 h-auto w-100 my-3">
               <img src="assets/images/avatar.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -68,7 +75,7 @@
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
-            <div class="card bg-light p-3 h-auto w-100 my-4">
+            <div class="card bg-light p-3 h-auto w-100 my-3">
               <img src="assets/images/avatar.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -82,7 +89,7 @@
         <div class="w-50 container-row-center-sticky container-fluid d-flex justify-content-around">
           <div class="container-fluid">
             <div class="row">
-              <div class="card bg-light p-3 w-100 my-4 mx-3">
+              <div class="card bg-light p-3 w-100 mb-3 mx-3">
                 <img src="assets/images/avatar.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -92,7 +99,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="card bg-light p-3 w-100 my-4 mx-3">
+              <div class="card bg-light p-3 w-100 my-3 mx-3">
                 <img src="assets/images/avatar.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -102,7 +109,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="card bg-light p-3 w-100 my-4 mx-3">
+              <div class="card bg-light p-3 w-100 my-3 mx-3">
                 <img src="assets/images/avatar.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -116,7 +123,7 @@
         <!-- <div class="col-1"></div> -->
         <div class="w-25 container-row-left-sticky nicescroll-box">
           <div class="nicescroll-box-wrap">
-            <div class="card bg-light p-3 h-auto w-100 my-4">
+            <div class="card bg-light p-3 h-auto w-100 mb-3">
               <img src="assets/images/avatar.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -124,7 +131,7 @@
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
-            <div class="card bg-light p-3 h-auto w-100 my-4">
+            <div class="card bg-light p-3 h-auto w-100 my-3">
               <img src="assets/images/avatar.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
