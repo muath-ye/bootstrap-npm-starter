@@ -1,31 +1,19 @@
+@import "starter";
+@import "starter-rtl";
+// styles for new classes
 
-// Toggle global options
-$enable-gradients: true;
-$enable-shadows: true;
-
-// Customize some defaults
-$body-color: rgb(0, 36, 46);
-$body-bg: rgb(15, 98, 170);
-$comment-bg: rgb(240, 242, 245);
-
-$container-color: rgb(102, 102, 102);
-$container-bg: rgb(255,255,255);
-
-
-//
-// Custom styles
-//
-
-body {
-  padding: 0rem;
-  margin: 0rem;
-  background-color: $body-bg;
+.navbar
+{
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
 }
 
-.container {
-  background-color: $container-bg;
+.navbar-brand-img
+{
+  height: 64px;
+  filter: brightness(0.3);
 }
 
-input {
-  background-color: $comment-bg;
+body
+{
+  background: #f9f9f9 url("/assets/images/pattern.png") repeat-x 0 90px;
 }

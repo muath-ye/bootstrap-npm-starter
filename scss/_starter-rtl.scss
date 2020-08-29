@@ -1,0 +1,31 @@
+// Customize some defaults
+$body-color: rgb(0, 36, 46);
+$body-bg: rgb(240, 248, 255);
+$comment-bg: rgb(240, 242, 245);
+
+$container-color: rgb(102, 102, 102);
+$container-bg: rgb(255,255,255);
+
+
+//
+// Custom styles
+// Override default bootstrap styles
+//
+* {
+  direction: rtl;
+}
+
+
+body {
+  padding: 0rem;
+  margin: 0rem;
+}
+
+nav,
+.container {
+  background-color: $container-bg;
+}
+
+input {
+  background-color: $comment-bg;
+}
